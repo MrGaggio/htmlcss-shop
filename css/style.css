@@ -17,6 +17,24 @@
     position: relative;
 }
 
+.img1{
+    position: relative;
+    
+}
+
+.img2{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.container:hover .img2{
+    transition: 0;
+    display: inline-block;
+
+}
+
 .sconto{
     background-color: red;
     position: absolute;
@@ -59,3 +77,7 @@
 .description{
     position: absolute;
 }
+
+
+
+
