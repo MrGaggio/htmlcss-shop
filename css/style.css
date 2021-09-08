@@ -3,3 +3,55 @@
     margin: 0;
     padding: 0;
 }
+
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.sconto{
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 30px;
+    width: 50px;
+    color: white;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sostenibility{
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 55px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.heart_container{
+    position: absolute;
+    top: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    padding-top: 12px;
+
+}
